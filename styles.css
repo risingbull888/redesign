@@ -1,0 +1,150 @@
+/*
+Taken from https://www.joshwcomeau.com/css/custom-css-reset/
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+#titleblock {
+  border: 3px solid black;
+  border-radius: 10px;
+  background: white;
+  color: #02004D;
+  box-shadow: 3px 2px 2px lightgrey;
+}
+
+.gallery-item {
+  max-width: 35rem;
+  min-width: 5rem;
+}
+
+.large-gallery-item {
+  max-width: available;
+  padding: 0rem 6rem;
+}
+
+#board{
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'Uber Move Text', sans-serif;
+  color: black;
+  text-align: center;
+  background: #FBFBFB;
+  margin: 2rem 6rem 2rem
+}
+
+li {
+  margin: 10px 0;
+}
+
+table, th, td {
+  border:1px solid #051285;
+  border-radius: 3px;
+  align-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.keys {
+  text-align: center;
+
+}
+ul, ol{
+  display: inline-block;
+  text-align: left;
+  max-width: fit-content;
+  place-content: center;
+}
+
+p{
+  display: inline-block;
+  text-align: left;
+  max-width: fit-content;
+  place-content: center;
+  margin-left:4rem;
+  margin-right:4rem;
+}
+
+#p1, #acc, #vredesign, #storyb {
+  border:3px solid #162328;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 2px 2px lightgrey;
+}
+
+figcaption{
+  font-size: 0.8rem;
+  text-shadow: none;
+  color: grey;
+  text-align: center;
+}
+
+
+.ipp-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.large-gallery-item {
+  object-fit: fill;
+}
+
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>personas & storyboarding</title>
+    <link rel="stylesheet" href="styles.css" />
+      <link href="http://fonts.cdnfonts.com/css/uber-move-text" rel="stylesheet">
+
+  </head>
+
+  <body>
+      <div id = "titleblock">
+        <h1>Responsive Redesign</h1>
+          <p><b>CSCI 1300</b></p>
+      </div>
+      <br>
+
+          <div id = "p1">
+              <br>
+              <h2>| Part 1: Identifying Usability Problems |</h2>
+                <br>
+              <table style="width:50%">
+                  <tr>
+                      <td><b>Website</b></td>
+                      <td><a href="https://cs.brown.edu/about/partners/">IPP Website</a></td>
+                  </tr>
+              </table>
+              <br>
+              <div class="ipp-container">
+                  <figure>
+                      <img class="gallery-item" src="./assets/ipp.png" alt="IPP Current Website">
+                      <figcaption> fig. 1 - The current CS IPP website homepage</figcaption>
+                  </figure>
+              </div>
+              <br>
+              <p>I chose this website because currently, it is very hard to use and get the information, access news, and overall ease of navigation. </p>
+              <br>
+              <br>
+              <h3><u>Finding Problems</u></h3>
+              <br>
+              <p><h4>Usability/Efficiency</h4></p>
+              <div class="keys">
+                  <ul>
+                      <li>Links to functionality are not in form of buttons</li>
+                      <li>multiple popup and non-integrated functions</li>
+                      <ul>
+                          <li>department’s research interest (‘here’ hyperlink)</li>
+                          <li>mailing list (new page, different interface)</li>
+                          <li>upcoming events (google calendar, no search functionality)</li>
+                          <li>recruiting policies (pdf link)</li>
+                      </ul>
+                      <li>Empty containers with no information</li>
+                      <ul>
+                          <li>recruiting events</li>
+                          <li>job listing</li>
+                      </ul>
+                      <li>advantages page iis easily overlooked as not linked within the become a partner page</li>
+                      <li>once clicked on a page, it cannot return to the homepage except for very obscure directory links on the top (low contrast)</li>
+                  </ul>
+              </div>
+              <br>
+              <p><h4>Learnability</h4></p>
+              <div class="keys">
+                  <ul>
+                      <li>No hierarchy to the different pages within the IPP</li>
+                      <li>Unsorted information and no search & categorization functionality</li>
+                      <ul>
+                          <li>advantages, general areas of research page, partners page, become a partner, symposia, membership level</li>
+                      </ul>
+                      <li>become a partner is obscured and not easy to find, clicking in there is no direct way except to find contact information</li>
+                      <li>hard to determine which membership level is the best fit</li>
+                  </ul>
+          </div>
+              <br>
+              <p><h4>Memorability</h4></p>
+              <div class="keys">
+                  <ul>
+                      <li>lack of visual-based difference between different options</li>
+                      <li>scattered links to different pages</li>
+                      <li>lack of in-site communication methods</li>
+                      <li>very minimal CSS styling</li>
+                      <li>lack of photos/visuals/videos to give information</li>
+                  </ul>
+              </div>
+
+              <p><h3><u>Conceptual Model</u></h3></p>
+              <div class="keys">
+                  <ol>
+                      <li>Enter first page</li>
+                      <li>Read the description of the IPP</li>
+                      <li>click on some of the links within the homepage depending on identity (students, employers)</li>
+                      <li>Click on the orange links below the header to learn more</li>
+                      <li>email the contact information provided for any actual collaboration (employers)</li>
+                  </ol>
+              </div>
+          </div>
+      <br>
+
+      <div id = "acc">
+          <br>
+          <h2>| Accessibility |</h2>
+          <div class="ipp-container">
+              <figure>
+                  <img class="gallery-item" src="./assets/acc.png" alt="IPP Current Website through WAVE">
+                  <figcaption> fig. 2 - The current CS IPP website homepage through WAVE</figcaption>
+              </figure>
+          </div>
+            <br>
+          <h3>⭐<u>Summary</u></h3>
+          <br>
+          <p>We see that there are many contrast errors as we have observed above and many of the alt tags are just the
+              file names. Due to the many text based links and direct hypertext description, it may not clear what the
+              functionality of clicking it does. Multiple new pages and files makes it hard to navigate for users
+              needing accessibility. The lack of regions make it hard to accessibility users to know where they are on
+              the page and there are many repeated links on the same page, creating ambiguity for functionality.</p>
+      <br>
+          <br>
+      </div>
+    <br>
+      <div id= "vredesign">
+          <br>
+          <h2>| Part 2: Visual Redesign |</h2>
+          <br>
+          <h3>Lofi Prototypes</h3>
+          <div class="gallery-container">
+              <figure>
+                  <img class="gallery-item" src="./assets/lofiPC.jpeg" alt="Large Display Lofi Prototype">
+                  <figcaption>Fig. 3 - Large Display (4K) Lofi Prototype</figcaption>
+              </figure>
+
+              <figure>
+                  <img class="gallery-item" src="./assets/lofiT.jpeg" alt="Table Lofi Prototype">
+                  <figcaption>Fig. 4 - Tablet (iPad Pro 12.9") Lofi Prototype</figcaption>
+              </figure>
+
+              <figure>
+                  <img class="gallery-item" src="./assets/lofiM.jpeg" alt="Mobile Lofi Prototype">
+                  <figcaption>Fig. 5 - Mobile (iPhone 14 Pro Max) Lofi Prototype </figcaption>
+              </figure>
+          </div>
+
+          <br>
+          <h3>Visual Design Style Guide</h3>
+          <br>
+          <div class="gallery-container">
+              <figure>
+                  <img class="large-gallery-item" src="./assets/uiguide.png" alt="IPP Website UI Design Guide">
+                  <figcaption>Fig. 6 - IPP Website UI Design Guide</figcaption>
+              </figure>
+          </div>
+          <br>
+          <h3>Hifi Prototypes</h3>
+          <br>
+          <div class="gallery-container">
+          <figure>
+              <img class="large-gallery-item" src="./assets/4ka.png" alt="Annotated Large Display Hifi Prototype">
+              <figcaption>Fig. 7 - Annotated Large Display (4K) Hifi Prototype</figcaption>
+          </figure>
+              </div>
+          <br>
+          <div class="gallery-container">
+              <figure>
+                  <img class="gallery-item"src="./assets/ipada.png" alt="Annotated Table Hifi Prototype">
+                  <figcaption>Fig. 8 - Annotated Tablet (iPad Pro 12.9") Hifi Prototype</figcaption>
+              </figure>
+
+              <figure>
+                  <img class="gallery-item" src="./assets/iphonea.png" alt="Annotated Mobile Hifi Prototype">
+                  <figcaption>Fig. 9 - Annotated Mobile (iPhone 14 Pro Max) Hifi Prototype </figcaption>
+              </figure>
+          </div>
+          <br>
+      </div>
+    <br>
+      <div id = "storyb">
+          <br>
+          <h2>| Part 3: Responsive Redesign |</h2>
+          <table style="width:50%">
+              <br>
+              <tr>
+                  <td><b>Redesigned Website</b></td>
+                  <td><a href="https://risingbull888.github.io/redesignipp/">Redesigned IPP Website</a></td>
+              </tr>
+          </table>
+          <br>
+          <br>
+          <h4>Thank you for viewing my responsive redesign process!</h4>
+          <br>
+      </div>
+  <br>
+  <br>
+
+  </body>
+
+</html>
